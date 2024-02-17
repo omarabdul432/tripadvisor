@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* margin: 10px; */
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+
+}
+
+.navbar__desc ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.navbar__desc ul :hover {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.whereto__one {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.categories:hover {
+    cursor: pointer;
+}
+
+.one:hover {
+    text-decoration: underline;
+}
+
+.search {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px grey solid;
+    width: 60%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 30px;
+    gap: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.search input {
+
+    border: none;
+    outline: none;
+    font-size: large;
+}
+
+.search button {
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    background-color: #84E9BD;
+    width: 70px;
+    height: 40px;
+    right: 10px;
+    top: 5px;
+}
+
+.poster {
+    background-color: #D7D7FA;
+    height: 400px;
+    width: 95%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.poster__desc h1 {
+    font-size: 64px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: #52327C;
+}
+
+.adver {
+    background-color: #84E9BD;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.image__ad {
+    width: 100px;
+    height: 100px;
+    /* align-items: center; */
+    position: relative;
+
+
+}
+
+.image__ad img {
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    top: 20px;
+    left: 30px;
+}
+
+.image__desc {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+
+.image__desc p {
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.button__ad h2 {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border: solid black 2px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+.trip__header {
+    margin: 20px;
+}
+
+.trip__desc {
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.image {
+    margin: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image img {
+    width: 280px;
+    height: 300px;
+    border-radius: 10px
+}
+
+.image1 {
+    position: relative;
+
+}
+
+.image1 h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.sug__header,
+.sug__desc {
+    margin: 20px;
+}
+
+.sug__desc {
+    opacity: 0.7;
+}
+
+.sug__image {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.sug__image1 h2 {
+    width: 250px;
+}
+
+.sug__image1 p {
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.sug__image1 img {
+    width: 280px;
+    height: 300px;
+    border-radius: 10px
+}
+
+.asian__header {
+    margin: 20px;
+    margin-top: 50px;
+
+}
+
+.asian__image {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.asian__desc {
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.a__image {
+    position: relative;
+
+}
+
+.a__image img {
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.a__image h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+}
+
+.container {
+    background-color: #00AA6C;
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.pos__image img {
+    width: 700px;
+}
+
+.pos__desc {
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.pos__desc p {
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.pos__desc button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 20px;
+    top: 150px;
+}
+
+.container1 {
+    background-color: #FAF1ED;
+    width: 95%;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ad__img img {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.ad__desc {
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+
+.ad__desc p {
+    margin-top: 30px;
+    opacity: 0.7;
+}
+
+button {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container2 {
+    width: 100%;
+    height: 400px;
+    background-color: #FAF1ED;
+}
+
+.more__head {
+    margin: 50px;
+    padding: 10px;
+}
+
+.more__head h2 {
+    margin-top: 20px;
+}
+
+.more__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+.more__img img {
+    width: 350px;
+    height: 200px;
+    display: block;
+    border-radius: 20px;
+}
+
+.more__img a {
+    text-decoration: none;
+    line-height: 20px;
+    text-align: justify;
+    color: black;
+}
+
+.more__img a:hover {
+    text-decoration: underline;
+}
+
+.d__head {
+    margin: 20px;
+    line-height: 50px;
+}
+
+.d__head h2 {
+    font-weight: lighter;
+}
+
+.d__img {
+    margin: 20px;
+    display: flex;
+    gap: 30px;
+
+}
+
+.d__img1 {
+    position: relative;
+}
+
+.d__img img {
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.d__img h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: black;
+}
+
+footer {
+    position: relative;
+}
+
+.container4 {
+    background-color: bisque;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.footer1 a:hover {
+    text-decoration: underline;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    opacity: 0.6;
+}
